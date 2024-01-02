@@ -7,6 +7,7 @@ class Admin extends CI_Controller
         parent::__construct();
         cek_login();
     }
+
     public function index()
     {
         $data['judul'] = 'Dashboard';
